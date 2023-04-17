@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+
 import Link from 'next/link'
 import { Metadata } from 'next'
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main >
+    <main>
       <h1>Home Page</h1>
       <Link href="/about"> About Page</Link>
       <br />
